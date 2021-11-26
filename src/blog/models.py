@@ -39,7 +39,7 @@ class Post(models.Model):
 
 
     class Meta:                     # return the data in descending order of publish date by default
-        ordering = ('-publish_date')
+        ordering = ('-publish_date',)
 
     def __str__(self):              # used to view the string representation of query set
         return self.title 
