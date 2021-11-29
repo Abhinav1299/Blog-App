@@ -4,6 +4,8 @@ from django.contrib.auth.models import User
 from .models import Post, Category
 
 
+# TESTING BLOG MODELS
+
 # testing create post on dummy database
 class TestCreatPost(TestCase):
 
