@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'blog',
     'blog_api',
     'rest_framework',
-    "corsheaders",
+    'corsheaders',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -145,3 +146,7 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
+
+
+# Custom user model
+AUTH_USER_MODEL = 'users.NewUser'
