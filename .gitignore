@@ -2,3 +2,7 @@ venv/
 notes_and_commands.txt
 htmlcov/
 .coverage
+
+__pycache__/
+*.py[cod]
+*$py.class
